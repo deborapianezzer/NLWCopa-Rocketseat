@@ -12,6 +12,9 @@ body {
   background-position-x:center ;
   background-position-y: 55%;
 }
+body *{
+  font-family: 'Roboto', sans-serif;
+}
 #app {
   width: fit-content;
   margin: 48px auto;
@@ -25,6 +28,10 @@ main div.card {
   border-bottom: 2px solid #f7dd43;
   border-radius: 6px;
 }
+main div.card img {
+  width: 50px;
+  height: 50px;
+}
 main div.card h2 {
   width: fit-content;
   margin-inline: auto;
@@ -37,5 +44,27 @@ main div.card h2 {
   border-radius: 6px;
 }
 main div.card h2 span {
+  color: #e1e1e6;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+main div.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+main div.card ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main div.card ul li + li{
+  padding-top: 24px;
+  border-top: 1px solid #323238;
+}
+main div.card ul li strong {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 125%;
   color: #e1e1e6;
 }
