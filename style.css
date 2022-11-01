@@ -1,6 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
 body {
   background-color: #121214;
-  background-image: url(./assets/bg.svg);
+  background-image: url(./assets/bgyellow.svg);
   background-position-x:center ;
   background-position-y: 55%;
+}
+#app {
+  width: fit-content;
+  margin: 48px auto;
+}
+header {
+  margin-bottom: 64px;
+}
+main div.card {
+  padding: 32px 24px;
+  background: #1d1c19;
+  border-bottom: 2px solid #f7dd43;
+  border-radius: 6px;
+}
+main div.card h2 {
+  width: fit-content;
+  margin-inline: auto;
+  margin-bottom: 48px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding: 8px 16px;
+  border: 1px solid #746615;
+  border-radius: 6px;
+}
+main div.card h2 span {
+  color: #e1e1e6;
 }
