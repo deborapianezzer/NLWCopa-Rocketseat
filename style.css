@@ -78,3 +78,28 @@ main div.card ul li strong {
   line-height: 125%;
   color: #e1e1e6;
 }
+/* TRANSIÇÃO */
+.card h2:hover,
+.card ul li strong:hover, 
+.card ul li img:hover {
+  transform: scale(1.1);
+}
+
+.card h2,
+.card ul li strong, 
+.card ul li img {
+  transition: transform 0.3s;
+}
+
+.card {
+  animation: appear 3s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
