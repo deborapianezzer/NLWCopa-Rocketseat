@@ -32,12 +32,10 @@ document.querySelector("#app").innerHTML = `
         createGame("unitedstates", "16:00", "welsh")
     )}
 
-    ${createCard(
-      "22/11",
-      "terça",
-      createGame("england", "10:00", "iran") +
-        createGame("senegal", "13:00", "netherlands") +
-        createGame("unitedstates", "16:00", "welsh")
+    ${createCard("22/11","terça",
+      createGame("argentina", "07:00", "saudi") +
+      createGame("senegal", "13:00", "netherlands") +
+      createGame("unitedstates", "16:00", "welsh")
     )}
   </main>
 `
