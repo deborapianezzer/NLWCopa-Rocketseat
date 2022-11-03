@@ -22,14 +22,22 @@ document.querySelector("#app").innerHTML = `
     <img src="./assets/logo.svg" alt="Logo NLWCopa">
   </header>
   <main id="cards">
-    ${createCard("20/11", "domingo", 
-    createGame('qatar','13:00','ecuador'))}
+    ${createCard("20/11", "domingo", createGame("qatar", "13:00", "ecuador"))}
 
-    ${createCard("21/11", "segunda", 
-    createGame('england','10:00','iran')+
-    createGame('senegal','13:00','netherlands')
+    ${createCard(
+      "21/11",
+      "segunda",
+      createGame("england", "10:00", "iran") +
+        createGame("senegal", "13:00", "netherlands") +
+        createGame("unitedstates", "16:00", "welsh")
     )}
 
-    ${createCard("22/11", "terça", createGame())}
+    ${createCard(
+      "22/11",
+      "terça",
+      createGame("england", "10:00", "iran") +
+        createGame("senegal", "13:00", "netherlands") +
+        createGame("unitedstates", "16:00", "welsh")
+    )}
   </main>
 `
