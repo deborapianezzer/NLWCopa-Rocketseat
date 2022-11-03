@@ -44,6 +44,7 @@ main div.card h2 {
   margin-inline: auto;
   margin-bottom: 48px;
   display: flex;
+  align-items: center;
   gap: 16px;
   justify-content: center;
   padding: 8px 16px;
