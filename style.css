@@ -6,15 +6,17 @@
 ul {
   list-style: none;
 }
+/* BODY */
+body *{
+  font-family: 'Roboto', sans-serif;
+}
 body {
   background-color: #121214;
   background-image: url(./assets/bgyellow.svg);
   background-position-x:center ;
   background-position-y: -715px;
 }
-body *{
-  font-family: 'Roboto', sans-serif;
-}
+/* APP */
 #app {
   width: fit-content;
   margin: 48px auto;
