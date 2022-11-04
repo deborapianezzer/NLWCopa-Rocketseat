@@ -13,7 +13,7 @@ body.blue {
 body.green {
   --card-title-border-color:#047c3f;
   --card-color-primary:#047c3f;
-   --card-bg-color:#1d1c19;
+  --card-bg-color:#1d1c19;
 }
 * {
   margin: 0;
@@ -30,13 +30,15 @@ body *{
 body {
   background-color: #121214;
   background-image: var(--bg);
-  background-position-x:center ;
-  background-position-y: -715px;
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* APP */
 #app {
   width: fit-content;
-  margin: 48px auto;
+  margin:auto;
+  padding: 52px;
 }
 header {
   margin-bottom: 64px;
