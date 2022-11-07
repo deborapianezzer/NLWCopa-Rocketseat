@@ -58,6 +58,13 @@ main div.card {
   background: var(--card-bg-color);
   border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
+  transition: transform .3s;
+}
+main div.card:hover {
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 6px;
+  transform: scale(1.1);
 }
 main div.card img {
   width: 50px;
@@ -111,13 +118,10 @@ main div.card ul li strong {
 .card h2,
 .card ul li strong, 
 .card ul li img {
-  transition: transform 3s;
+  transition: transform .3s;
 }
 
-div.card:hover {
-  cursor: pointer;
-  border-color: white;
-}
+
 
 
 
